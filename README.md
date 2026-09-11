@@ -1,6 +1,6 @@
 # Build a Shopping Cart and Securely Embed Payments in a ReactJS App
 
-This is a JavaScript application that uses the React framework and Node.js to demonstrate an ecommerce shopping cart with an embedded payment solution using [North's Embedded Checkout](https://developer.north.com/products/online/embedded-checkout). The application includes a React frontend and a Node.js/Express backend [`North-Node-Embedded-Checkout-API`](https://github.com/NorthDevelopers/North-Node-Browser-Post-API) to securely generate checkout sessions and verify transaction status.
+This is a JavaScript application that uses the React framework and Node.js to demonstrate an ecommerce shopping cart with an embedded payment solution using [North's Embedded Checkout](https://developer.north.com/products/online/embedded-checkout). The application includes a React frontend and a Node.js/Express backend [`North-Node-Embedded-Checkout-API`](https://github.com/NorthDevelopers/North-Node-embedded-checkout) to securely generate checkout sessions and verify transaction status.
 
 ## Get Sandbox Credentials
 
@@ -14,16 +14,16 @@ When you're ready to start building your app, you can follow along with [this tu
 
 Your completed ecommerce app will look similar to the following:
 
-![](/src/assets/payments-hub-react-browser-post-api-with-cart.png)
+![](/src/assets/payments-hub-react-embedded-checkout-with-cart.png)
 
 Click the "View Details" button to open a product page:
 
-![](/src/assets/payments-hub-react-browser-post-api-product-with-cart.png)
+![](/src/assets/payments-hub-react-embedded-checkout-product-with-cart.png)
 
 Click the "Shopping Cart" button to open the cart modal, which displays the items in your cart, the total order amount, and allows users to edit the contents of their cart:
 
-![](/src/assets/payments-hub-react-browser-post-api-shopping-cart.png)
+![](/src/assets/payments-hub-react-embedded-checkout-shopping-cart.png)
 
 Click the "Checkout" button to go to the checkout page, where a secure checkout form is embedded directly so customers can enter their payment information and submit an order:
 
-![](/src/assets/payments-hub-react-browser-post-api-with-cart-checkout-form.png)
+![](/src/assets/payments-hub-react-embedded-checkout-with-cart-checkout-form.png)
